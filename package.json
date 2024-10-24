@@ -1,12 +1,13 @@
 {
   "devDependencies": {
-    "@ui5/cli": "^4.0.9"
+    "@ui5/cli": "^4.0.9",
+    "ui5-middleware-simpleproxy": "^3.3.0"
   },
   "name": "ui5-walkthrough",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-      "start": "ui5 serve -o index.html"
+    "start": "ui5 serve -o index.html"
   },
   "author": "",
   "license": "ISC",
